@@ -1,4 +1,4 @@
 export default () =>
-  async () =>
+  async function () {
     Promise.resolve();
-
+}
