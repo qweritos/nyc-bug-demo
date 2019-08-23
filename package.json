@@ -1,0 +1,40 @@
+{
+  "name": "nyc-bug-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qweritos/nyc-bug-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qweritos/nyc-bug-demo/issues"
+  },
+  "homepage": "https://github.com/Qweritos/nyc-bug-demo#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.5.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/register": "^7.5.5",
+    "ava": "^2.2.0",
+    "nyc": "^14.1.1"
+  },
+  "ava": {
+    "require": [
+      "@babel/register"
+    ]
+  }
+}
