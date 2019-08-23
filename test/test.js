@@ -3,6 +3,6 @@ import test from 'ava';
 import bug from '../src/bug';
 
 test('expect something', async t => {
-  await bug()();
+  await bug();
   t.pass();
 });
